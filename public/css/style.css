@@ -1,0 +1,70 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+section{
+    width: 80%;
+    border-top: teal solid 3px;
+    padding-top: 40px;
+}
+h1{
+    color: teal;
+    font-style: italic;
+    font-size: 50px;
+}
+button{
+    width: 55px;
+    height: 35px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.btnSolid{
+    border: black 3px solid;
+}
+.btnDotted{
+    border: dotted 2px black;
+}
+.btnSolidFine{
+    border: solid 1px red
+}
+.btnTop1{
+    border-top: red 1px solid
+}
+.btnTop2{
+    border-top: red 2px solid
+}
+.btnTop3{
+    border-top: red 3px solid
+}
+div{
+    margin-bottom: 30px;
+}
+form{
+    display: inline;
+}
+input{
+    width: 55px;
+}
+.inputBg{
+    border: solid 4px black;
+}
+.inputBl{
+    border-left: solid 4px black;
+}
+.inputBt{
+    border-top: solid 4px black;
+}
+.inputBr{
+    border-right: solid 4px black;
+}
+.inputBb{
+    border-bottom: solid 4px black;
+}
+.divEx{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
